@@ -1,0 +1,19 @@
+#!/usr/bin/env ruby
+# -*- coding: utf-8 -*-
+
+require 'r-fxxk'
+
+class Lango < Brainfuck
+  inc '闇に飲まれよ'
+  dec '煩わしい太陽ね'
+  nxt '我が友'
+  prv '我に力を!'
+  opn '禁断の果実'
+  cls '我が魂の赴くままに'
+  get '灼熱の業火が我が身を焦がす'
+  put '言の葉は不得手､秘めたる意思を伝える秘術はないものか'
+end
+
+puts Lango.new.fuck(ARGF.read)
+
+
